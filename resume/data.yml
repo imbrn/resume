@@ -1,9 +1,17 @@
 /* #*/ export const PERSON = `
 name:
   first: Bruno
-  middle:
+  middle: C.
   last: Couto
-about: Sou programador há quase 10 anos, com conhecimento acima da média em várias áreas da engenharia de software, principalmente ao desenvolvimento front-end e games. Sou completamente apaixonado por programação, aprender novas linguagens e metodologias, e melhorar o meu código. Possuo facilidade de aprendizado e adaptação. Tenho conhecimento pleno em várias linguagens de programação, mas acima de tudo, considero que minhas habilidades mais notáveis estão relacionadas à orientação a objetos, princípios SOLID, Clean Code e Design Patterns.
+
+about: Sou programador há quase 10 anos, com conhecimento acima da média em várias áreas da
+       engenharia de software, principalmente em desenvolvimento front-end e games.
+       Sou completamente apaixonado por programação, aprender novas linguagens e metodologias,
+       e melhorar o meu código. Possuo facilidade de aprendizado e adaptação. Tenho conhecimento
+       pleno em várias linguagens de programação, mas acima de tudo, considero que minhas
+       habilidades mais notáveis estão relacionadas à orientação a objetos, princípios SOLID,
+       Clean Code e Design Patterns.
+
 position: Engenheiro de software
 
 birth:
@@ -24,12 +32,12 @@ experience:
 - company: Slide To Contrary Side
   position: Engenheiro de software
   timeperiod: 2015
-  description: Jogo para Android utilizando C++ (Cocos2d-x) como linguagem principal.
+  description: Jogo para Android utilizando C++ como linguagem principal.
 
 - company: Magic Matrix
   position: Engenheiro de software
   timeperiod: 2015-2016
-  description: Jogo para Android utilizando C++ (Cocos2d-x) como linguagem principal.
+  description: Jogo para Android utilizando C++ como linguagem principal.
 
 education:
 - degree: Curso superior incompleto em Sistema de Informação
@@ -42,22 +50,22 @@ education:
 
 # skill level goes 0 to 100
 skills:
+- name: ReactJS
+  level: 95
+- name: JavaScript
+  level: 95
+- name: Java
+  level: 80
+- name: Python
+  level: 50
 - name: HTML5
   level: 90
 - name: CSS3
   level: 90
-- name: JavaScript
-  level: 95
 - name: Node.js
   level: 75
-- name: ReactJS
-  level: 95
-- name: Java
-  level: 80
 - name: C/C++
   level: 60
-- name: Python
-  level: 50
 
 contact:
   email: Bruno C. Couto
@@ -65,6 +73,7 @@ contact:
   street: Av. Antônio Alves Filgueira, 190
   city: Miguelópolis
   github: bruno02221
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: pt
 `
