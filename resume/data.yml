@@ -1,70 +1,70 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Bruno
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Couto
+about: Sou programador há quase 10 anos, com conhecimento acima da média em várias áreas da engenharia de software, principalmente ao desenvolvimento front-end e games. Sou completamente apaixonado por programação, aprender novas linguagens e metodologias, e melhorar o meu código. Possuo facilidade de aprendizado e adaptação. Tenho conhecimento pleno em várias linguagens de programação, mas acima de tudo, considero que minhas habilidades mais notáveis estão relacionadas à orientação a objetos, princípios SOLID, Clean Code e Design Patterns.
+position: Engenheiro de software
 
 birth:
-  year: 1990
-  location: New York
+  year: 1988
+  location: Miguelópolis-SP, Brasil
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: remembs.com
+  position: Desenvolvedor principal
+  timeperiod: ano de 2011
+  description: Rede social desenvolvida utilizando Java e JSF.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Geometry Puzzle
+  position: Desenvolvedor principal
+  timeperiod: ano de 2014
+  description: Jogo para Android utilizando Java como linguagem principal.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Slide To Contrary Side
+  position: Engenheiro de software
+  timeperiod: 2015
+  description: Jogo para Android utilizando C++ (Cocos2d-x) como linguagem principal.
+
+- company: Magic Matrix
+  position: Engenheiro de software
+  timeperiod: 2015-2016
+  description: Jogo para Android utilizando C++ (Cocos2d-x) como linguagem principal.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+- degree: Curso superior incompleto em Sistema de Informação
+  timeperiod: 2006-2008
+  description: Análise e desenvolvimento de sistemas.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Javascript Design Patterns, Udacity
+  timeperiod: fevereiro-março 2017
+  description: Organização de código, tanto conceitualmente como literalmente, utilizando Javascript.
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
-  level: 99
+  level: 90
 - name: CSS3
-  level: 95
+  level: 90
 - name: JavaScript
-  level: 97
+  level: 95
 - name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+  level: 75
+- name: ReactJS
+  level: 95
+- name: Java
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: C/C++
+  level: 60
+- name: Python
+  level: 50
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: Bruno C. Couto
+  phone: +55 016 99361-6042
+  street: Av. Antônio Alves Filgueira, 190
+  city: Miguelópolis
+  github: bruno02221
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: pt
 `
