@@ -6,13 +6,15 @@
   "author": "Bruno C. Couto <brunodev02221@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "./scripts/start.js"
+    "start": "./scripts/start.js",
+    "build": "./scripts/build.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",
     "cssnext": "^1.8.4",
     "live-server": "^1.2.0",
