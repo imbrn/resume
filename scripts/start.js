@@ -14,7 +14,7 @@ compiler.watch({}, (error, data) => {
 function startServer() {
   // Serve the application
   server.start({
-    watch: ["build", "index.html"]
+    watch: ["build", "dist", "index.html"]
   });
   serverStarted = true;
 }
