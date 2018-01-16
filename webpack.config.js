@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   entry: "./main.js",
   output: {
@@ -17,5 +19,6 @@ module.exports = {
         loader: ["style-loader", "css-loader", "postcss-loader"]
       }
     ]
-  }
+  },
+  devtool: "inline-source-map"
 };
