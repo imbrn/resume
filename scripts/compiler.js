@@ -7,7 +7,7 @@ const config = require("../webpack.config.js");
 
 const argv = require("yargs")
   .default("lang", "en")
-  .default("template", "elegant").argv;
+  .default("template", "clean").argv;
 
 const compiler = webpack(config);
 

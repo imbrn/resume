@@ -1,5 +1,7 @@
-import Elegant from "./elegant";
+import "reset-css/reset.css";
+import "./common.css";
+import Clean from "./clean";
 
 export function templateFactory() {
-  return Elegant;
+  return Clean;
 }
