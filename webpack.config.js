@@ -4,7 +4,8 @@ module.exports = {
   entry: "./main.js",
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "bundle.js",
+    publicPath: "dist/"
   },
   module: {
     rules: [
@@ -16,6 +17,10 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ["style-loader", "css-loader", "postcss-loader"]
+      },
+      {
+        test: /\.(jpg,svg)$/,
+        loader: "file-loader"
       }
     ]
   },

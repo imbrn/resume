@@ -18,6 +18,7 @@
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",
     "cssnext": "^1.8.4",
+    "file-loader": "^1.1.6",
     "live-server": "^1.2.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",

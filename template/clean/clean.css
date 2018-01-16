@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+:root {
+  --color-primary: rgb(255, 243, 74);
+  --color-black: #444;
+  --font-family: "Lato", sans-serif;
+  --spacing: 20px;
+}
+
+.clean {
+  display: flex;
+  width: 210mm;
+  height: 297mm;
+  font-family: var(--font-family);
+  color: var(--color-black);
+}
+
+.clean aside {
+  width: 200px;
+}
+
+.clean aside .about {
+  position: relative;
+}
+
+.clean aside .about .flag {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: var(--color-primary);
+}
+
+.clean aside .about .content {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 60px 20px;
+}
+
+.clean aside .about .picture {
+  margin-bottom: var(--spacing);
+}
+
+.clean aside .about .name {
+  font-size: 1.35rem;
+  font-weight: 900;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing);
+}
+
+.clean aside .about .title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing);
+}
+
+.clean aside .about .biography {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.clean main {
+  flex-grow: 1;
+}
