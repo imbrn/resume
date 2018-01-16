@@ -1,11 +1,2 @@
-import React from "react";
-
-const Elegant = ({ data }) => {
-  return (
-    <div>
-      {data.skills.length}
-    </div>
-  );
-};
-
-export default Elegant;
+import elegant from "./elegant";
+export default elegant;
