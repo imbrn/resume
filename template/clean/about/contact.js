@@ -5,6 +5,7 @@ import Icon from "../icon";
 import MapPinSvg from "../icons/map-pin.svg";
 import GithubSvg from "../icons/github.svg";
 import EmailSvg from "../icons/mail.svg";
+import LinkedInSvg from "../icons/linkedin.svg";
 
 const Contact = ({ data }) => {
   return (
@@ -27,6 +28,11 @@ const Contact = ({ data }) => {
         <ContactItem icon={GithubSvg}>
           <h2>
             {data.contact.github}
+          </h2>
+        </ContactItem>
+        <ContactItem icon={LinkedInSvg}>
+          <h2>
+            {data.contact.linkedin}
           </h2>
         </ContactItem>
       </div>
