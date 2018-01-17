@@ -5,6 +5,7 @@ import address from "./address";
 import skills from "./skills";
 import title from "./title";
 import picture from "./picture.jpg";
+import experience from "./experience";
 
 const defaultLang = "en";
 
@@ -15,5 +16,6 @@ export default {
   address,
   title: title[LANG] || title[defaultLang],
   biography: biography[LANG] || biography[defaultLang],
-  skills
+  skills,
+  experience: experience[LANG] || experience[defaultLang]
 }

@@ -7,14 +7,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: calc(var(--spacing)*4);
+  padding: calc(var(--spacing));
 }
 
 .clean--about--contact--items {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  margin-top: calc(var(--spacing)*2);
+  margin-top: var(--spacing);
 }
 
 .clean--about--contact--item {
@@ -38,6 +38,7 @@
 .clean--about--contact--item--data h3 {
   text-align: center;
   font-size: 0.85rem;
+  line-height: 1;
 }
 
 .clean--about--contact--item--data h1 {

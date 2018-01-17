@@ -1,10 +1,18 @@
 @import "./_variables.css";
 
 .icon {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px;
+  padding: 2px;
+  width: 48px;
+  height: 48px;
+}
+
+.icon--image {
+  width: 76%;
+  height: 76%;
 }
 
 .icon.background-dark {

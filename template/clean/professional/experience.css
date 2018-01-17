@@ -1,0 +1,37 @@
+@import "../_variables.css";
+
+.clean--professional--experience--item {
+  margin-top: calc(var(--spacing)*2);
+}
+
+.clean--professional--experience--item--title {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.clean--professional--experience--item--title hr {
+  background: color(var(--color-black) lightness(50%));
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 0.85rem;
+  width: 1px;
+  margin: 0 var(--spacing);
+}
+
+.clean--professional--experience--item--title h2 {
+  color: color(var(--color-black) lightness(50%));
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.clean--professional--experience--item--project {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.clean--professional--experience--item--description {
+  margin-top: calc(var(--spacing)/2);
+  font-size: 0.85rem;
+}

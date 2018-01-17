@@ -1,0 +1,28 @@
+@import "../_variables.css";
+
+.clean--professional--item {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--spacing);
+}
+
+.clean--professional--item--circle {
+  height: 100%;
+}
+
+.clean--professional--item--circle--image {
+  width: 8px;
+  height: 8px;
+  margin-right: var(--spacing);
+  background: var(--color-black);
+}
+
+.clean--professional--item--content {
+  flex-grow: 1;
+}
+
+.clean--professional--item--content h1 {
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}

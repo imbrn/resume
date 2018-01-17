@@ -1,0 +1,7 @@
+@import "../_variables.css";
+
+.clean--professional {
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: var(--spacing);
+}

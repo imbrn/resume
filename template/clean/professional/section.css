@@ -1,0 +1,18 @@
+@import "../_variables.css";
+
+.clean--professional--section {
+  margin-top: calc(var(--spacing) * 2);
+}
+
+.clean--professional--section:first-child {
+  margin-top: var(--spacing);
+}
+
+.clean--professional--section--header {
+  display: flex;
+  align-items: center;
+}
+
+.clean--professional--section--header--title {
+  margin-left: var(--spacing);
+}

@@ -13,6 +13,7 @@
   box-sizing: border-box;
   padding: calc(var(--spacing)*2.25);
   padding-bottom: 80px;
+  width: 260px;
 }
 
 .clean--about--personal--flag {
@@ -26,6 +27,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
+  line-height: 1;
 }
 
 .clean--about--personal--picture {
@@ -39,6 +41,7 @@
   margin-top: var(--spacing);
   width: 75%;
   text-align: center;
+  line-height: 1;
 }
 
 .clean--about--personal--separator {
