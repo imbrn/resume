@@ -56,4 +56,5 @@
   margin-top: var(--spacing);
   text-align: justify;
   font-size: 0.75rem;
+  font-weight: 600;
 }
