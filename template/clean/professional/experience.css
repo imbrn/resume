@@ -1,7 +1,7 @@
 @import "../_variables.css";
 
 .clean--professional--experience--item {
-  margin-top: calc(var(--spacing)*2);
+  margin-top: calc(var(--spacing)*1.5);
 }
 
 .clean--professional--experience--item--title {
