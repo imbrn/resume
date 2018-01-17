@@ -1,0 +1,58 @@
+@import "../_variables.css";
+
+.clean--about--personal {
+  position: relative;
+}
+
+.clean--about--personal--content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: calc(var(--spacing)*2.25);
+  padding-bottom: 80px;
+}
+
+.clean--about--personal--flag {
+  position: absolute;
+  fill: var(--color-primary);
+}
+
+.clean--about--personal--name {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.clean--about--personal--picture {
+  width: 70%;
+  margin-top: var(--spacing);
+}
+
+.clean--about--personal--title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: var(--spacing);
+  width: 75%;
+  text-align: center;
+}
+
+.clean--about--personal--separator {
+  margin-top: var(--spacing);
+}
+
+.clean--about--personal--separator .circle {
+  width: 6px;
+  height: 6px;
+  margin: 3px;
+  background: var(--color-black);
+}
+
+.clean--about--personal--biography {
+  margin-top: var(--spacing);
+  text-align: justify;
+  font-size: 0.75rem;
+}

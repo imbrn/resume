@@ -19,7 +19,7 @@ module.exports = {
         loader: ["style-loader", "css-loader", "postcss-loader"]
       },
       {
-        test: /\.(jpg,svg)$/,
+        test: /\.(jpg|svg)$/,
         loader: "file-loader"
       }
     ]
