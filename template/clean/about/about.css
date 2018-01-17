@@ -1,6 +1,8 @@
 @import "../_variables.css";
 
 .clean--about {
+  display: flex;
+  flex-direction: column;
   position: relative;
   width: 240px;
 }
@@ -13,6 +15,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.015) url("../diamonds.svg");
+  background: rgba(0, 0, 0, 0.015) url("../diamonds.svg?ext");
   background-size: 18px;
 }

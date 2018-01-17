@@ -5,7 +5,9 @@ const server = require("live-server");
 
 let serverStarted = false;
 
-compiler.watch({}, (error, data) => {
+compiler.watch({
+  devtool: "inline-source-map"
+}, (error, data) => {
   if (!serverStarted) {
     startServer();
   }

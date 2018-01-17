@@ -1,0 +1,26 @@
+@import "./_variables.css";
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.icon.background-dark {
+  background: var(--color-black);
+}
+
+.icon.background-dark .icon--image {
+  stroke: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.icon.background-light {
+  background: var(--color-primary);
+}
+
+.icon.background-light .icon--image {
+  stroke: var(--color-black);
+  color: var(--color-black);
+}

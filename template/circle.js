@@ -2,8 +2,12 @@ import React from "react";
 import classnames from "classnames";
 import "./circle.css";
 
-const Circle = ({ className, ...rest }) => {
-  return <div className={classnames("circle", className)} />;
+const Circle = ({ children, className, ...rest }) => {
+  return (
+    <div {...rest} className={classnames("circle", className)}>
+      {children}
+    </div>
+  );
 };
 
 export default Circle;

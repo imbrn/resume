@@ -19,8 +19,19 @@ module.exports = {
         loader: ["style-loader", "css-loader", "postcss-loader"]
       },
       {
-        test: /\.(jpg|svg)$/,
-        loader: "file-loader"
+        test: /\.(jpg|png)$/,
+        loader: "file-loader",
+        options: {
+          name: "[path][name].[ext]"
+        }
+      },
+      {
+        test: /\.svg$/,
+        loader: "file-loader",
+        options: {
+          name: "[path][name].[ext]"
+        },
+        resourceQuery: /(ext|external)/
       }
     ]
   }
