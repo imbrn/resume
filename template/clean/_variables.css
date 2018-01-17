@@ -1,6 +1,6 @@
 :root {
-  --color-primary: rgb(238, 220, 64);
-  --color-black: rgb(77, 77, 77);
-  --color-white: #eee;
+  --color-primary: rgb(159, 255, 103);
+  --color-black: rgba(0,0,0,0.7);
+  --color-white: #fff;
   --spacing: 16px;
 }

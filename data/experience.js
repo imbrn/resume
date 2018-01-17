@@ -1,6 +1,12 @@
 export default {
   en: [
     {
+      project: "Open flashcards",
+      role: "Full stack engineer",
+      description: "Open flashcards is an open source project for studying flashcards. But it's also a project focused in helping others to understand and participate in a real project development. The mainly used technologies are React, Redux and Firebase.",
+      period: "In progress"
+    },
+    {
       project: "Awesome React Steps",
       role: "Front-end developer",
       description:
