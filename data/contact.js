@@ -1,5 +1,5 @@
 export default {
-  email: "brunoccouto@gmail.com",
+  email: "brunodev02221@gmail.com",
   twitter: "@bruno02221",
   github: "github.com/bruno02221"
 }

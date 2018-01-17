@@ -11,14 +11,14 @@ export default {
       project: "Magic Matrix Puzzle",
       role: "Game developer",
       description:
-        "Android game in Rubik's cube style, but in a 2D space. This game was built using Cocos2d-X was game engine, JNI was used to connect Java code with C++ code. I engineered and developed the entirely game by myself.",
+        "Android game in Rubik's cube style, but in a 2D space. This game was built using Cocos2d-X as game engine, JNI was used to connect Java code with C++ code. I engineered and developed the entirely game by myself.",
       period: "2015-2016"
     },
     {
       project: "Slide to Contrary Side",
       role: "Game developer",
       description:
-        "Android arcade, one touch game. This game was built using Cocos2d-X was game engine, JNI was used to connect Java code with C++ code. I engineered and developed the entirely game by myself.",
+        "Android arcade, one touch game. This game was built using Cocos2d-X as game engine, JNI was used to connect Java code with C++ code. I engineered and developed the entirely game by myself.",
       period: "2015"
     }
   ]
