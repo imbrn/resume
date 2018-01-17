@@ -1,0 +1,22 @@
+@import "../_variables.css";
+
+.clean--professional--skills--content {
+  margin-top: var(--spacing);
+  display: flex;
+  justify-content: space-around;
+}
+
+.clean--professional--skills--bar {
+  margin-left: var(--spacing);
+}
+
+.clean--professional--skills--bar--circle {
+  width: 12px;
+  height: 12px;
+  margin-left: calc(var(--spacing)/4);
+  background: color(var(--color-white) blackness(10%));
+}
+
+.clean--professional--skills--bar--circle__filled {
+  background: color(var(--color-primary) blackness(15%));
+}
