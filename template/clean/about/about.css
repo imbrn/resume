@@ -1,6 +1,18 @@
 @import "../_variables.css";
 
 .clean--about {
+  position: relative;
   width: 240px;
-  background: #f8f8f8;
+}
+
+.clean--about::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.015) url("../diamonds.svg");
+  background-size: 18px;
 }
