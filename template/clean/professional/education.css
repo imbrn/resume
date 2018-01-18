@@ -1,0 +1,21 @@
+@import "../_variables.css";
+
+.clean--professional--education--content {
+  display: flex;
+  margin-top: var(--spacing);
+}
+
+.clean--professional--education--item {
+  font-size: 0.85rem;
+  flex-grow: 2;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.clean--professional--education--item h2 {
+  line-height: 1;
+}
+
+.clean--professional--education--item h3 {
+  margin: calc(var(--spacing)/2) 0;
+}

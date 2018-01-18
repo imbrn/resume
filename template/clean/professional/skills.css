@@ -3,7 +3,6 @@
 .clean--professional--skills--content {
   margin-top: var(--spacing);
   display: flex;
-  justify-content: space-around;
   font-size: 0.85rem;
 }
 
