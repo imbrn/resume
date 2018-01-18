@@ -1,8 +1,18 @@
 @import "../_variables.css";
 
 .clean--professional {
+  display: flex;
+  flex-direction: column;
   position: relative;
   flex-grow: 1;
   box-sizing: border-box;
   padding: var(--spacing);
+}
+
+.clean--professional--content {
+  flex-grow: 1;
+}
+
+.clean--heart {
+  color: red;
 }
