@@ -12,12 +12,12 @@
 }
 
 .clean--professional--skills--bar--circle {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   margin-left: calc(var(--spacing)/4);
   background: color(var(--color-white) blackness(10%));
 }
 
 .clean--professional--skills--bar--circle__filled {
-  background: color(var(--color-primary) blackness(15%));
+  background: var(--color-primary);
 }
