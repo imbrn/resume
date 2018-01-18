@@ -3,8 +3,8 @@ export default {
     {
       "title": "Self-taught CS",
       "institution": "The web",
-      "period": "2008-always",
-      "description": "I've been studying computer science for free on the web. I've been taking free lessons from schools like Udacity and Coursera, practicing logic with platforms like HackerRank and Topcoder, understanding real projects with open source at Github, and doing a lot of personal projects."
+      "period": "2008-forever",
+      "description": "Self-taught computer science using web for research, documentation, free courses at schools like Udacity and Coursera, coding challenges, free books, Medium articles, videos, GitHub and everything awesome from the open source community."
     },
     {
       "title": "Information systems",

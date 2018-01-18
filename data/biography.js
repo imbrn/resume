@@ -1,5 +1,5 @@
 export default {
   en:
-    "I've been studying computer science for free on the web since I dropped out the college. I've been taking free lessons from schools like Udacity and Coursera, practicing logic with platforms like HackerRank and Topcoder, understanding real projects with open source at Github, and doing a lot of personal projects.",
+    "I have been a programmer for almost 10 years, with above average knowledge in various areas of software engineering, especially in front-end and game development. I am completely passionate about programming, learning new languages and methodologies, and improving my code. I adapt to new concepts and situations quickly. I have good knowledge in various programming languages but mainly I consider my most notable skills to be related to object orientation, SOLID principles, Clean Code and Design Patterns.",
   pt: "Minha biografia escrita em Português"
 };
