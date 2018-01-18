@@ -13,7 +13,7 @@ const Education = ({ data }) => {
     >
       <div className="clean--professional--education--content">
         {data.education.map((item, index) => {
-          return <EducationItem item={item} />;
+          return <EducationItem key={index} item={item} />;
         })}
       </div>
     </Section>

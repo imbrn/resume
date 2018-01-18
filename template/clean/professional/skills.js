@@ -52,7 +52,6 @@ const SkillsTable = ({ skills }) => {
 const SkillBar = ({ skill }) => {
   const count = Math.floor(skill.level / 2);
   const circles = [];
-  console.log(skill, count);
   for (let i = 0; i < 5; i++) {
     const modifierClasses = classnames(
       i < count && "clean--professional--skills--bar--circle__filled"

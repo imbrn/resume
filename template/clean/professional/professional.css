@@ -1,6 +1,7 @@
 @import "../_variables.css";
 
 .clean--professional {
+  position: relative;
   flex-grow: 1;
   box-sizing: border-box;
   padding: var(--spacing);

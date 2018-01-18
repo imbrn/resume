@@ -6,6 +6,7 @@
 }
 
 .clean {
+  position: relative;
   box-sizing: border-box;
   width: 210mm;
   height: 297mm;
@@ -15,4 +16,18 @@
   font-family: "Lato", sans-serif;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.clean--top-slice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  fill: var(--color-primary);
+}
+
+.clean--bottom-slice {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  fill: var(--color-primary);
 }
