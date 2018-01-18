@@ -14,23 +14,16 @@ const Skills = ({ data }) => {
       className="clean--professional--skills"
     >
       <div className="clean--professional--skills--content">
-        <Item className="clean--professional--skills--development">
-          <h1 className="clean--professional--skills--development--title">
-            Development
-          </h1>
+        <Item className="clean--professional--skills--item">
+          <h1>Development</h1>
           <SkillsTable
             skills={data.skills.development}
             className="clean--professional--skills--development--table"
           />
         </Item>
-        <Item className="clean--professional--skills--engineering">
-          <h1 className="clean--professional--skills--engineering--title">
-            Engineering
-          </h1>
-          <SkillsTable
-            skills={data.skills.engineering}
-            className="clean--professional--skills--engineering--table"
-          />
+        <Item className="clean--professional--skills--item">
+          <h1>Engineering</h1>
+          <SkillsTable skills={data.skills.engineering} />
         </Item>
       </div>
     </Section>

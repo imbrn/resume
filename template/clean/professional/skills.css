@@ -6,6 +6,10 @@
   font-size: 0.85rem;
 }
 
+.clean--professional--skills--item {
+  width: 50%;
+}
+
 .clean--professional--skills--bar {
   margin-left: var(--spacing);
 }

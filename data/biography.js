@@ -1,5 +1,5 @@
 export default {
   en:
-    "Officia officia veniam irure quis laboris mollit deserunt ipsum proident cillum pariatur. Sunt magna nulla anim aliquip ex mollit adipisicing pariatur nulla veniam aliqua esse enim. Excepteur tempor sunt exercitation eu velit. Adipisicing velit eiusmod ipsum cupidatat sunt ex labore velit. Mollit Lorem duis non id mollit ipsum est esse consectetur sint ipsum occaecat adipisicing. Ullamco eiusmod culpa exercitation duis velit est dolor.",
+    "I've been studying computer science for free on the web since I dropped out the college. I've been taking free lessons from schools like Udacity and Coursera, practicing logic with platforms like HackerRank and Topcoder, understanding real projects with open source at Github, and doing a lot of personal projects.",
   pt: "Minha biografia escrita em Português"
 };
