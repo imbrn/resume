@@ -31,3 +31,15 @@
   bottom: 0;
   fill: var(--color-primary);
 }
+
+.clean--footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: calc(var(--spacing)/4);
+}
+
+.clean--footer--heart {
+  color: red;
+}

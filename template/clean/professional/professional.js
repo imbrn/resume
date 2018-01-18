@@ -8,12 +8,9 @@ import Education from "./education";
 const Professional = ({ data }) => {
   return (
     <div className="clean--professional">
-      <div className="clean--professional--content">
-        <Experience data={data} />
-        <Skills data={data} />
-        <Education data={data} />
-      </div>
-      <footer>made with react and <span className="clean--heart">❤</span> by bruno02221</footer>
+      <Experience data={data} />
+      <Skills data={data} />
+      <Education data={data} />
     </div>
   );
 };

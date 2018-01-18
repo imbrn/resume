@@ -10,6 +10,7 @@ const Clean = ({ data }) => {
       <Professional data={data} />
       <TopSlice />
       <BottomSlice />
+      <Footer />
     </div>
   );
 };
@@ -37,6 +38,15 @@ const BottomSlice = () => {
     >
       <polygon points="0,40 100,0 100,40" />
     </svg>
+  );
+};
+
+const Footer = () => {
+  return (
+    <footer className="clean--footer">
+      Coded with React and <span className="clean--footer--heart">❤</span> by
+      Bruno C. Couto
+    </footer>
   );
 };
 
