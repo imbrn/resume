@@ -18,7 +18,7 @@
   width: 10px;
   height: 10px;
   margin-left: calc(var(--spacing)/4);
-  background: color(var(--color-white) blackness(10%));
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .clean--professional--skills--bar--circle__filled {

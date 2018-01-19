@@ -21,7 +21,7 @@
 }
 
 .clean--professional--experience--item--title h2 {
-  color: color(var(--color-black) lightness(50%));
+  color: color(var(--color-black) alpha(25%));
   font-size: 0.85rem;
   font-weight: 600;
 }
