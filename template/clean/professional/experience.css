@@ -1,5 +1,9 @@
 @import "../_variables.css";
 
+:root {
+  --color-black-lighter: color(var(--color-black) alpha(25%));
+}
+
 .clean--professional--experience--item {
   margin-top: calc(var(--spacing)*1.5);
 }
@@ -11,7 +15,7 @@
 }
 
 .clean--professional--experience--item--title hr {
-  background: color(var(--color-black) lightness(50%));
+  background: var(--color-black-lighter);
   border: 0;
   margin: 0;
   padding: 0;
@@ -21,7 +25,7 @@
 }
 
 .clean--professional--experience--item--title h2 {
-  color: color(var(--color-black) alpha(25%));
+  color: var(--color-black-lighter);
   font-size: 0.85rem;
   font-weight: 600;
 }
