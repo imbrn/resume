@@ -1,17 +1,17 @@
 export default {
   en: [
     {
-      project: "Open flashcards",
-      role: "Full stack engineer",
-      description: "Open flashcards is an open source project for studying flashcards. But it's also a project focused on helping others to understand and participate in a real project development. The mainly used technologies are React, Redux and Firebase.",
-      period: "In progress"
-    },
-    {
       project: "Awesome React Steps",
       role: "Front-end developer",
       description:
         "Open source reusable and customizable set of React steppers components. This library was built using ES6 (transpile with babel), PostCSS, and was packaged using Rollup. I developed the entire library by myself.",
       period: "2017-2018"
+    },
+    {
+      project: "Open flashcards",
+      role: "Full stack engineer",
+      description: "Open flashcards is an open source project for studying flashcards. But it's also a project focused on helping others to understand and participate in a real project development. The mainly used technologies are React, Redux and Firebase.",
+      period: "2017"
     },
     {
       project: "Magic Matrix Puzzle",
