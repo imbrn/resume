@@ -3,10 +3,11 @@ import "./experience.css";
 import Section from "./section";
 import Item from "./item";
 import BriefcaseSvg from "../icons/briefcase.svg";
+import strings from "../strings";
 
 const Experience = ({ data }) => {
   return (
-    <Section title="Experience" icon={BriefcaseSvg}>
+    <Section title={strings["experience"]} icon={BriefcaseSvg}>
       {data.experience.map((item, index) => (
         <ExperienceItem key={index} item={item} />
       ))}

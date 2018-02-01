@@ -5,24 +5,25 @@ import Item from "./item";
 import "./skills.css";
 import SlidersSvg from "../icons/sliders.svg";
 import Circle from "../../circle";
+import strings from "../strings";
 
 const Skills = ({ data }) => {
   return (
     <Section
-      title="Skills"
+      title={strings["skills"]}
       icon={SlidersSvg}
       className="clean--professional--skills"
     >
       <div className="clean--professional--skills--content">
         <Item className="clean--professional--skills--item">
-          <h1>Development</h1>
+          <h1>{strings["development"]}</h1>
           <SkillsTable
             skills={data.skills.development}
             className="clean--professional--skills--development--table"
           />
         </Item>
         <Item className="clean--professional--skills--item">
-          <h1>Engineering</h1>
+          <h1>{strings["engineering"]}</h1>
           <SkillsTable skills={data.skills.engineering} />
         </Item>
       </div>

@@ -3,11 +3,12 @@ import Section from "./section";
 import Item from "./item";
 import "./education.css";
 import BookSvg from "../icons/book.svg";
+import strings from "../strings";
 
 const Education = ({ data }) => {
   return (
     <Section
-      title="Education"
+      title={strings["education"]}
       icon={BookSvg}
       className="clean--professional--education"
     >

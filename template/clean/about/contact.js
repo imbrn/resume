@@ -6,11 +6,12 @@ import MapPinSvg from "../icons/map-pin.svg";
 import GithubSvg from "../icons/github.svg";
 import EmailSvg from "../icons/mail.svg";
 import LinkedInSvg from "../icons/linkedin.svg";
+import strings from "../strings";
 
 const Contact = ({ data }) => {
   return (
     <div className="clean--about--contact">
-      <Title>Contact</Title>
+      <Title>{strings["contact"]}</Title>
       <div className="clean--about--contact--items">
         <ContactItem icon={MapPinSvg}>
           <h1>
