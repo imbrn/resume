@@ -1,4 +1,4 @@
 export default {
   en: "Front-end engineer",
-  pt: "Desenvolvedor front-end"
+  pt: "Engenheiro front-end"
 }
