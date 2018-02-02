@@ -34,7 +34,7 @@ export default {
       project: "Awesome React Steps",
       role: "Front-end developer",
       description:
-        "Biblioteca de componentes 'steppers' para React, open-source e customizáveis. A biblioteca foi escrita utilizando ES6 (com transipiling utilizando Babel), PostCSS, e foi empacotada utilizado Rollup. Eu mesmo desenolvi e mantenho a biblioteca.",
+        "Biblioteca de componentes 'steppers' para React, open-source e customizáveis. A biblioteca foi escrita utilizando ES6 (com transipiling utilizando Babel), PostCSS, e foi empacotada utilizando Rollup. Eu mesmo desenvolvi e mantenho a biblioteca.",
       period: "2017-2018"
     },
     {
@@ -48,7 +48,7 @@ export default {
       project: "Magic Matrix Puzzle",
       role: "Game developer",
       description:
-        "Jogo para Android no estilo cubo mágico, mas em um ambiente 2D. O jogo foi desenvolvido utilizando cocos-2dx como game engine e JNI para fazer ligação entre código C++ e Java. Eu mesmo desenvolvi e mantenho o jogo.",
+        "Jogo para Android no estilo cubo mágico, mas em um ambiente 2D. O jogo foi desenvolvido utilizando cocos2d-x como game engine e JNI para fazer ligação entre código C++ e Java. Eu mesmo desenvolvi e mantenho o jogo.",
       period: "2015-2016"
     },
     {
