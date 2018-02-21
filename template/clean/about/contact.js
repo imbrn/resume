@@ -1,11 +1,12 @@
 import React from "react";
+import classnames from "classnames";
 import "./contact.css";
 import Title from "../title";
 import Icon from "../icon";
 import MapPinSvg from "../icons/map-pin.svg";
 import GithubSvg from "../icons/github.svg";
 import EmailSvg from "../icons/mail.svg";
-import LinkedInSvg from "../icons/linkedin.svg";
+import TwitterSvg from "../icons/twitter.svg";
 import strings from "../strings";
 
 const Contact = ({ data }) => {
@@ -13,40 +14,97 @@ const Contact = ({ data }) => {
     <div className="clean--about--contact">
       <Title>{strings["contact"]}</Title>
       <div className="clean--about--contact--items">
-        <ContactItem icon={MapPinSvg}>
-          <h1>
-            {data.address.city}
-          </h1>
-          <h3>
-            {data.address.state}, {data.address.country}
-          </h3>
-        </ContactItem>
-        <ContactItem icon={EmailSvg}>
-          <h2>
-            {data.contact.email}
-          </h2>
-        </ContactItem>
-        <ContactItem icon={GithubSvg}>
-          <h2>
-            {data.contact.github}
-          </h2>
-        </ContactItem>
-        <ContactItem icon={LinkedInSvg}>
-          <h2>
-            {data.contact.linkedin}
-          </h2>
-        </ContactItem>
+        {data.contact.slice(0, 4).map((contact, i) => {
+          const Item = ContactItemFactory(contact);
+          return (
+            <Item
+              key={i}
+              contact={contact}
+              className="clean--about--items--item"
+            />
+          );
+        })}
       </div>
     </div>
   );
 };
 
-const ContactItem = ({ icon, children, ...rest }) => {
+function ContactItemFactory(contact) {
+  switch (contact.type) {
+    case "address":
+      return AddressContactItem;
+    case "email":
+      return EmailContactItem;
+    case "twitter":
+      return TwitterContactItem;
+    case "github":
+      return GithubContactItem;
+    default:
+      return DefaultContactItem;
+  }
+}
+
+const ContactItem = ({ icon, link, children, className }) => {
+  const Wrapper = link
+    ? ({ children, ...rest }) => (
+        <a {...rest} href={link}>
+          {children}
+        </a>
+      )
+    : "span";
   return (
-    <div {...rest} className="clean--about--contact--item">
-      <Icon svg={icon} />
-      <div className="clean--about--contact--item--data">{children}</div>
+    <div className={classnames(className, "clean--about--contact--item")}>
+      <Wrapper className="clean--about--contact--item--wrapper">
+        {icon ? <Icon svg={icon} /> : null}
+        <div className="clean--about--contact--item--data">{children}</div>
+      </Wrapper>
     </div>
+  );
+};
+
+const DefaultContactItem = ({ contact, className }) => {
+  return <ContactItem>{contact.value}</ContactItem>;
+};
+
+const AddressContactItem = ({ contact, className }) => {
+  return (
+    <ContactItem
+      icon={MapPinSvg}
+      className={classnames(className, "clean--about--contact--item__address")}
+    >
+      <h1>{contact.value.city}</h1>
+      <h2>
+        {contact.value.state}, {contact.value.country}
+      </h2>
+    </ContactItem>
+  );
+};
+
+const EmailContactItem = ({ contact, className }) => {
+  return (
+    <ContactItem icon={EmailSvg} link={`mailto:${contact.value}`}>
+      {contact.value}
+    </ContactItem>
+  );
+};
+
+const TwitterContactItem = ({ contact, className }) => {
+  return (
+    <ContactItem
+      icon={TwitterSvg}
+      link={`https://twitter.com/${contact.value}`}
+    >
+      {contact.value}
+    </ContactItem>
+  );
+};
+
+const GithubContactItem = ({ contact, className }) => {
+  return (
+    <ContactItem
+      icon={GithubSvg}
+      link={`https://github.com/${contact.value}`}
+    >{contact.value}</ContactItem>
   );
 };
 
