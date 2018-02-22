@@ -16,20 +16,26 @@ const Experience = ({ data }) => {
 };
 
 const ExperienceItem = ({ item }) => {
+  const Wrapper = item.link
+    ? ({ children }) => <a href={item.link}>{children}</a>
+    : "span";
+
   return (
     <div className="clean--professional--experience--item">
       <Item>
-        <div className="clean--professional--experience--item--title">
-          <h1>{item.role}</h1>
-          <hr />
-          <h2>{item.period}</h2>
-        </div>
-        <h2 className="clean--professional--experience--item--project">
-          {item.project}
-        </h2>
-        <p className="clean--professional--experience--item--description">
-          {item.description}
-        </p>
+        <Wrapper>
+          <div className="clean--professional--experience--item--title">
+            <h1>{item.role}</h1>
+            <hr />
+            <h2>{item.period}</h2>
+          </div>
+          <h2 className="clean--professional--experience--item--project">
+            {item.project}
+          </h2>
+          <p className="clean--professional--experience--item--description">
+            {item.description}
+          </p>
+        </Wrapper>
       </Item>
     </div>
   );

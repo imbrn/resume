@@ -8,6 +8,11 @@
   margin-top: calc(var(--spacing)*1.5);
 }
 
+.clean--professional--experience--item a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .clean--professional--experience--item--title {
   display: flex;
   align-items: center;
