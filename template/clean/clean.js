@@ -44,8 +44,10 @@ const BottomSlice = () => {
 const Footer = () => {
   return (
     <footer className="clean--footer">
-      {`<>`} with React and <span className="clean--footer--heart">❤</span> by
-      Bruno C. Couto
+      <a href={GITHUB_LINK} className="clean--footer--github-link">
+        {`<>`} with React and <span className="clean--footer--heart">❤</span> by
+        Bruno C. Couto
+      </a>
     </footer>
   );
 };
