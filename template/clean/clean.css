@@ -43,3 +43,8 @@
 .clean--footer--heart {
   color: red;
 }
+
+.clean--footer--github-link {
+  text-decoration: none;
+  color: inherit;
+}

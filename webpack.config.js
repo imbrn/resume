@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   entry: "./main.js",
@@ -34,5 +35,10 @@ module.exports = {
         resourceQuery: /(ext|external)/
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      GITHUB_LINK: JSON.stringify("https://github.com/bruno02221/resume")
+    })
+  ]
 };
