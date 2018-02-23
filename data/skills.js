@@ -1,6 +1,7 @@
 export default {
   development: [
     { name: "React", level: 9 },
+    { name: "Redux", level: 9 },
     { name: "Javascript", level: 10 },
     { name: "HTML/CSS", level: 10 },
     { name: "Java", level: 7 },
