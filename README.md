@@ -1,2 +1,2 @@
 # 📃 My resume
-Hi, my name's Bruno and this is the Markdown version of my resume. Its online application version is developed using React and can be accessed [here](https://bruno02221.github.io/resume/).
+This is my resume as an application that I made using web technologies. It was made using React. Its online running application can be accessed [here](https://bruno02221.github.io/resume/).
