@@ -2,7 +2,7 @@ export default {
   en: [
     {
       project: "Awesome React Steps",
-      role: "Front-end developer",
+      role: "Front-end engineer",
       description: `Open source reusable and customizable set of React steppers components.
         This library was built using ES6 (transpile with babel), PostCSS, and
         was packaged using Rollup. I developed the entire library by myself.`,
@@ -11,11 +11,11 @@ export default {
     },
     {
       project: "Open flashcards",
-      role: "Full stack engineer",
+      role: "Front-end engineer",
       description: `Open flashcards is an open source project for studying flashcards. But
-        it's also a project focused on helping others to understand and
-        participate in a real project development. The mainly used technologies
-        are React, Redux and Firebase.`,
+      the main purpose of this project is to provide an easy to understand real-life
+      application made with React and some related libraries. It's intended to be an easy
+      to contribute project, even for beginners in the React world.`,
       period: "2017",
       link: "https://github.com/open-flashcards/flashcards"
     },
