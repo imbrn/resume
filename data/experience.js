@@ -44,7 +44,7 @@ export default {
   pt: [
     {
       project: "Awesome React Steps",
-      role: "Front-end developer",
+      role: "Front-end engineer",
       description: `Biblioteca de componentes 'steppers' para React, open-source e
          customizáveis. A biblioteca foi escrita utilizando ES6
          (com transipiling utilizando Babel), PostCSS, e foi empacotada
@@ -54,12 +54,12 @@ export default {
     },
     {
       project: "Open flashcards",
-      role: "Full stack engineer",
-      description: `Open flashcards é um projeto open-source para estudo de flashcards.
-        Mas ele é também um projeto com foco em ajudar iniciantes a se
-        envolverem no universo open-source, participando e contribuindo em um
-        projeto real. As principais tecnologias envolvidas no projeto são React,
-        Redux e firebase.`,
+      role: "Front-end engineer",
+      description: `Open-flashcards é um projeto open-source para estudo de flashcards. Mas
+      o principal propósito do projeto é fornecer uma aplicação da vida real, feita em React
+      e sua stack, e que seja fácil de entender, mesmo para programadores iniciantes em React.
+      O objetivo é ser simples para que todos possam participar, contribuir e com isso
+      aprender.`,
       period: "2017",
       link: "https://github.com/open-flashcards/flashcards"
     },
