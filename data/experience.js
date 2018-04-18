@@ -7,7 +7,7 @@ export default {
       You can search meals by name, category, area, and it has an amazing user interface.
       This project was totally made using React as framework and themealdb.com as Restful API.`,
       period: "2018",
-      link: "https://github.com/bruno02221/open-meals"
+      link: "https://open-meals.herokuapp.com/"
     },
     {
       project: "Awesome React Steps",
@@ -59,7 +59,7 @@ export default {
       usuário é incrível. Esse projeto foi totalmente desenvolvido utilizando React como
       framework e themealdb.com como API Restful.`,
       period: "2018",
-      link: "https://github.com/bruno02221/open-meals"
+      link: "https://open-meals.herokuapp.com/"
     },
     {
       project: "Awesome React Steps",
