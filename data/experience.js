@@ -1,6 +1,15 @@
 export default {
   en: [
     {
+      project: "Open Meals",
+      role: "Front-end engineer",
+      description: `Open Meals is an open source application for you to find your next meal.
+      You can search meals by name, category, area, and it has an amazing user interface.
+      This project was totally made using React as framework and themealdb.com as Restful API.`,
+      period: "2018",
+      link: "https://github.com/bruno02221/open-meals"
+    },
+    {
       project: "Awesome React Steps",
       role: "Front-end engineer",
       description: `Open source reusable and customizable set of React steppers components.
@@ -8,16 +17,6 @@ export default {
         was packaged using Rollup. I developed the entire library by myself.`,
       period: "2017-2018",
       link: "https://github.com/bruno02221/awesome-react-steps"
-    },
-    {
-      project: "Open flashcards",
-      role: "Front-end engineer",
-      description: `Open flashcards is an open source project for studying flashcards. But
-      the main purpose of this project is to provide an easy to understand real-life
-      application made with React and some related libraries. It's intended to be an easy
-      to contribute project, even for beginners in the React world.`,
-      period: "2017",
-      link: "https://github.com/open-flashcards/flashcards"
     },
     {
       project: "Magic Matrix Puzzle",
@@ -39,9 +38,29 @@ export default {
       period: "2015",
       link:
         "https://play.google.com/store/apps/details?id=com.nowadayssystems.stcs"
+    },
+    {
+      project: "Open flashcards",
+      role: "Front-end engineer",
+      description: `Open flashcards is an open source project for studying flashcards. But
+      the main purpose of this project is to provide an easy to understand real-life
+      application made with React and some related libraries. It's intended to be an easy
+      to contribute project, even for beginners in the React world.`,
+      period: "2017",
+      link: "https://github.com/open-flashcards/flashcards"
     }
   ],
   pt: [
+    {
+      project: "Open Meals",
+      role: "Front-end engineer",
+      description: `Open Meals é uma aplicação open source para você encontrar sua próxima
+      refeição. Você pode pesquisar refeições por nome, categoria, área, e a interface de
+      usuário é incrível. Esse projeto foi totalmente desenvolvido utilizando React como
+      framework e themealdb.com como API Restful.`,
+      period: "2018",
+      link: "https://github.com/bruno02221/open-meals"
+    },
     {
       project: "Awesome React Steps",
       role: "Front-end engineer",
@@ -51,17 +70,6 @@ export default {
          utilizando Rollup. Eu mesmo desenvolvi e mantenho a biblioteca.`,
       period: "2017-2018",
       link: "https://github.com/bruno02221/awesome-react-steps"
-    },
-    {
-      project: "Open flashcards",
-      role: "Front-end engineer",
-      description: `Open-flashcards é um projeto open-source para estudo de flashcards. Mas
-      o principal propósito do projeto é fornecer uma aplicação da vida real, feita em React
-      e sua stack, e que seja fácil de entender, mesmo para programadores iniciantes em React.
-      O objetivo é ser simples para que todos possam participar, contribuir e com isso
-      aprender.`,
-      period: "2017",
-      link: "https://github.com/open-flashcards/flashcards"
     },
     {
       project: "Magic Matrix Puzzle",
@@ -82,6 +90,17 @@ export default {
       period: "2015",
       link:
         "https://play.google.com/store/apps/details?id=com.nowadayssystems.stcs"
+    },
+    {
+      project: "Open flashcards",
+      role: "Front-end engineer",
+      description: `Open-flashcards é um projeto open-source para estudo de flashcards. Mas
+      o principal propósito do projeto é fornecer uma aplicação da vida real, feita em React
+      e sua stack, e que seja fácil de entender, mesmo para programadores iniciantes em React.
+      O objetivo é ser simples para que todos possam participar, contribuir e com isso
+      aprender.`,
+      period: "2017",
+      link: "https://github.com/open-flashcards/flashcards"
     }
   ]
 };
