@@ -8,9 +8,9 @@ import strings from "../strings";
 const Experience = ({ data }) => {
   return (
     <Section title={strings["experience"]} icon={BriefcaseSvg}>
-      {data.experience.map((item, index) => (
-        <ExperienceItem key={index} item={item} />
-      ))}
+      {data.experience
+        .slice(0, 4)
+        .map((item, index) => <ExperienceItem key={index} item={item} />)}
     </Section>
   );
 };
